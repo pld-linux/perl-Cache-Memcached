@@ -1,11 +1,12 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Cache
 %define		pnam	Memcached
 Summary:	Cache::Memcached - shared data cache using memcached
+Summary(pl):	Cache::Memcached - wspó³dzielone cache dla danych przy u¿yciu memcached
 Name:		perl-Cache-Memcached
 Version:	1.14
 Release:	0.3
@@ -28,6 +29,15 @@ This is the Perl API for memcached, a distributed memory cache daemon.
 memcached is a high-performance, distributed memory object caching
 system, generic in nature, but intended for use in speeding up dynamic
 web applications by alleviating database load.
+
+%description -l pl
+To jest perlowe API dla memcached - rozproszonego demona cache'owania
+pamiêci.
+
+memcached to wysoko wydajny, rozproszony system cache'owania obiektów,
+ogólny w swojej naturze, ale stworzony z my¶l± o u¿ywaniu do
+przyspieszenia dynamicznych aplikacji WWW poprzez zmniejszenie
+obci±¿enia bazy danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
