@@ -6,7 +6,7 @@
 %define		pdir	Cache
 %define		pnam	Memcached
 Summary:	Cache::Memcached - shared data cache using memcached
-Summary(pl):	Cache::Memcached - wspó³dzielone cache dla danych przy u¿yciu memcached
+Summary(pl.UTF-8):   Cache::Memcached - wspÃ³Å‚dzielone cache dla danych przy uÅ¼yciu memcached
 Name:		perl-Cache-Memcached
 Version:	1.18
 Release:	1
@@ -30,14 +30,14 @@ memcached is a high-performance, distributed memory object caching
 system, generic in nature, but intended for use in speeding up dynamic
 web applications by alleviating database load.
 
-%description -l pl
+%description -l pl.UTF-8
 To jest perlowe API dla memcached - rozproszonego demona cache'owania
-pamiêci.
+pamiÄ™ci.
 
-memcached to wysoko wydajny, rozproszony system cache'owania obiektów,
-ogólny w swojej naturze, ale stworzony z my¶l± o u¿ywaniu do
+memcached to wysoko wydajny, rozproszony system cache'owania obiektÃ³w,
+ogÃ³lny w swojej naturze, ale stworzony z myÅ›lÄ… o uÅ¼ywaniu do
 przyspieszenia dynamicznych aplikacji WWW poprzez zmniejszenie
-obci±¿enia bazy danych.
+obciÄ…Å¼enia bazy danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
