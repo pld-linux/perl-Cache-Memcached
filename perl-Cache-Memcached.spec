@@ -6,7 +6,7 @@
 %define		pdir	Cache
 %define		pnam	Memcached
 Summary:	Cache::Memcached - shared data cache using memcached
-Summary(pl.UTF-8):   Cache::Memcached - współdzielone cache dla danych przy użyciu memcached
+Summary(pl.UTF-8):	Cache::Memcached - współdzielone cache dla danych przy użyciu memcached
 Name:		perl-Cache-Memcached
 Version:	1.18
 Release:	1
