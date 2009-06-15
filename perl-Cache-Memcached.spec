@@ -8,12 +8,12 @@
 Summary:	Cache::Memcached - shared data cache using memcached
 Summary(pl.UTF-8):	Cache::Memcached - współdzielone cache dla danych przy użyciu memcached
 Name:		perl-Cache-Memcached
-Version:	1.24
+Version:	1.26
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e065546f7d99a5a2004684e78ce4c946
+# Source0-md5:	ff74342ce45fbb2115792b0d24d7ae8c
 URL:		http://www.danga.com/memcached/
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
